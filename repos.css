@@ -1,0 +1,19 @@
+.repo-name {
+    font-size: 2em;
+}
+
+.repo {
+    list-style: none;
+    background-color: hsl(0, 0%, 100%);
+    padding: 1em;
+    margin: 1em;
+    border-radius: 0.5em;
+    transition: all 500ms;
+    font-family: 'IBM Plex Mono', monospace;
+    color: black;
+}
+
+.repo:hover {
+    background-color: hsl(0, 0%, 73%);
+    transition: 300ms;
+}
